@@ -1,9 +1,9 @@
 # Progress checklist:
 
 ### Zozbieranie informácií
-[] Existujuce projekty
-[]
-[] 
+- [x] Existujuce projekty
+- []
+- [] 
 
 
 
@@ -12,13 +12,13 @@
 
 ### Casti pera
 
-[] Kostra
-[] Mechanmizmus
-[] Bateria
-[] Elektroinstalacia
-	[] bateria
-	[]  
-[]
-[]
-[]
-[]
+- [] Kostra
+- [] Mechanmizmus
+- [] Bateria
+- [] Elektroinstalacia
+	- [] bateria
+	- []  
+- []
+- []
+- []
+- []
