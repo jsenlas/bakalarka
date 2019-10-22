@@ -4,6 +4,9 @@ https://en.wikipedia.org/wiki/Ballpoint_pen
 https://www.tme.eu/cz/
 https://cz.farnell.com/
 
+Vyroba Custom dosky
+https://www.autodesk.com/education/free-software/eagle
+
 
 mala napln do pera:
 	https://www.thepencompany.com/product/lamy-m22-ballpoint-pen-refill/
@@ -51,3 +54,18 @@ https://arduino-shop.cz/arduino/1312-arduino-android-ios-hm-10-bluetooth-4-0-ble
 ### Force sensor
 https://en.wikipedia.org/wiki/Force-sensing_resistor
 	https://en.wikipedia.org/wiki/Velostat
+
+
+## Zoznam
+
+gyro + akcelerometr - https://www.tme.eu/cz/details/df-sen0253/cidla-polohy/dfrobot/sen0253/
+len gyro - https://www.tme.eu/cz/details/seeed-101020050/cidla-polohy/seeed-studio/3-axis-digital-gyro/
+mikrofon - https://www.tme.eu/cz/details/ada-1713/moduly-audio/adafruit/1713/
+termistor - https://www.tme.eu/cz/details/ntcm-10k-b3380/merici-termistory-ntc-tht/sr-passives/
+arduino - https://arduino-shop.cz/arduino/1474-originalni-vyvojovy-kit-arduino-nano.html
+Bluetooth - https://arduino-shop.cz/arduino/1312-arduino-android-ios-hm-10-bluetooth-4-0-ble-cc2540-cc2541-seriovy-bezdratovy-modul.html?gclid=EAIaIQobChMIqseHqu2j5QIVRrDtCh2AVgXWEAQYASABEgIAj_D_BwE
+ctecka microSD - https://www.tme.eu/cz/details/df-dfr0229/adaptery/dfrobot/dfr0229/
+
+NIC
+https://www.microchip.com/wwwproducts/en/RN4020
+https://www.tme.eu/cz/details/esp32-devkitc-vib/vyvojove-kity-pro-prenos-dat/espressif/
