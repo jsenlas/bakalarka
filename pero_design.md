@@ -1,12 +1,13 @@
 https://en.wikipedia.org/wiki/Ballpoint_pen
 
 # Obchody
+
 https://www.tme.eu/cz/
+
 https://cz.farnell.com/
 
-Vyroba Custom dosky
+Vyroba Custom dosky  
 https://www.autodesk.com/education/free-software/eagle
-
 
 mala napln do pera:
 	https://www.thepencompany.com/product/lamy-m22-ballpoint-pen-refill/
@@ -15,12 +16,19 @@ Doska
 	https://ameridroid.com/products/odroid-xu4
 	https://en.wikipedia.org/wiki/ESP8266
 	https://en.wikipedia.org/wiki/ESP32
+
 Senzor
 	https://www.flintec.com/weight-sensors/force-sensors/miniature/mba-tw
-	https://www.amazon.com/MPU-6050-Accelerometer-Three-Axis-Arduino-Quadcopter/dp/B07PY38BCB?SubscriptionId=AKIAILSHYYTFIVPWUY6Q&tag=duckduckgo-ffab-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07PY38BCB
+	https://www.amazon.com/MPU-6050-Accelerometer-Three-Axis-Arduino-
+
+Quadcopter/dp/B07PY38BCB?
+
+SubscriptionId=AKIAILSHYYTFIVPWUY6Q&tag=duckduckgo-ffab-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07PY38BCB
 
 Pera
 	
+## Bluetooth modul
+
 ## Microkontroler
 
 Arduino pro micro 
@@ -42,7 +50,9 @@ https://www.vernier.com/products/sensors/temperature-sensors/sts-bta/
 
 ### Gyroscope
 
-https://www.quora.com/How-does-a-fiber-optic-gyroscope-work?share=1
+https://www.quora.com/How-does-a-fiber-optic-gyroscope-work?share=1 
+https://www.instructables.com/id/MPU6050-Arduino-6-Axis-Accelerometer-Gyro-GY-521-B/ 
+https://playground.arduino.cc/Main/MPU-6050/
 
 ### Wireless connectivity
 https://en.wikipedia.org/wiki/ESP8266
@@ -51,11 +61,15 @@ https://randomnerdtutorials.com/esp32-bluetooth-low-energy-ble-arduino-ide/
 https://www.intorobotics.com/pick-right-bluetooth-module-diy-arduino-project/
 https://arduino-shop.cz/arduino/1312-arduino-android-ios-hm-10-bluetooth-4-0-ble-cc2540-cc2541-seriovy-bezdratovy-modul.html
 
-### Force sensor
+### Force sensing resistor
 https://en.wikipedia.org/wiki/Force-sensing_resistor
-	https://en.wikipedia.org/wiki/Velostat
+https://en.wikipedia.org/wiki/Velostat
 
+#### Instructables
+https://pimylifeup.com/arduino-force-sensing-resistor
 
+#### Parts
+100 KOhm resistor = Brown, Black, Black, Red, Brown 
 ## Zoznam
 
 gyro + akcelerometr - https://www.tme.eu/cz/details/df-sen0253/cidla-polohy/dfrobot/sen0253/
