@@ -40,9 +40,14 @@ https://arduino-shop.cz/arduino/1312-arduino-android-ios-hm-10-bluetooth-4-0-ble
 HC05 modul
 https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737
 
+Bluetooth modul od Microchipu RN4020
+http://www.farnell.com/datasheets/2004057.pdf?_ga=2.255310024.1192426103.1572439583-805469301.1572439583
+https://github.com/LieBtrau/Click_BLE2_RN4020
+
 Navody
 https://navody.arduino-shop.cz/navody-k-produktum/arduino-bluetooth-4.0-ble-modul-hm-10.html
-
+https://www.forward.com.au/pfod/pfodDesigner/index.html
+https://playground.arduino.cc/Code/CmdMessenger/
 
 ## Microkontroler
 
@@ -58,6 +63,8 @@ https://create.arduino.cc/projecthub/monica/getting-started-with-bluetooth-low-e
 
 ## Senzory
 
+Vsetky https://playground.arduino.cc/Main/InterfacingWithHardware/
+
 ### Teplotna sonda: 
 https://uk.farnell.com/sensor-temperature-sensor-technology
 https://cs.wikipedia.org/wiki/Termistor
@@ -65,6 +72,8 @@ https://cz.farnell.com/pico-technology/se031/type-k-thermocouple-probe/dp/240752
 https://www.vernier.com/products/sensors/temperature-sensors/sts-bta/
 
 ### Gyroscope
+
+https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050
 
 https://www.quora.com/How-does-a-fiber-optic-gyroscope-work?share=1 
 https://www.instructables.com/id/MPU6050-Arduino-6-Axis-Accelerometer-Gyro-GY-521-B/ 
