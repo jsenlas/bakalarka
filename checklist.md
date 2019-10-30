@@ -7,7 +7,7 @@
 ## Progress
 
 *Vsetky cinnosti:*
-- [ ] nainstalovat Arduino IDE
+- [x] nainstalovat Arduino IDE
 - [ ] pripojit sa a urobit si niekolkko tutorialov
 - [ ] nastudovat si ako sa pise bakalarska praca == ukradnut kostru ;)
 
@@ -26,11 +26,11 @@
 #### v0.0
 
 - [ ] Vyskusat naprogramovat arduino 
-	- [ ] tlakovy senzor
+	- [x] tlakovy senzor
 	- [ ] akcelerometer + gyro
 	- [ ] vodivost pokozky
 	- [ ] teplomer
-	- [ ] Bluetooth
+	- [x] Bluetooth
 
 Spatna vazba 
 

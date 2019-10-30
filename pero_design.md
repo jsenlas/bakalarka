@@ -12,11 +12,6 @@ https://www.autodesk.com/education/free-software/eagle
 mala napln do pera:
 	https://www.thepencompany.com/product/lamy-m22-ballpoint-pen-refill/
 
-Doska
-	https://ameridroid.com/products/odroid-xu4
-	https://en.wikipedia.org/wiki/ESP8266
-	https://en.wikipedia.org/wiki/ESP32
-
 Senzor
 	https://www.flintec.com/weight-sensors/force-sensors/miniature/mba-tw
 	https://www.amazon.com/MPU-6050-Accelerometer-Three-Axis-Arduino-
@@ -27,7 +22,27 @@ SubscriptionId=AKIAILSHYYTFIVPWUY6Q&tag=duckduckgo-ffab-20&linkCode=xm2&camp=202
 
 Pera
 	
+# Komponenty
+
+## Arduino doska
+
+Arduino Nano
+
+https://ameridroid.com/products/odroid-xu4
+https://en.wikipedia.org/wiki/ESP8266
+https://en.wikipedia.org/wiki/ESP32
+
 ## Bluetooth modul
+
+HM10 - vybraty
+https://arduino-shop.cz/arduino/1312-arduino-android-ios-hm-10-bluetooth-4-0-ble-cc2540-cc2541-seriovy-bezdratovy-modul.html
+
+HC05 modul
+https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737
+
+Navody
+https://navody.arduino-shop.cz/navody-k-produktum/arduino-bluetooth-4.0-ble-modul-hm-10.html
+
 
 ## Microkontroler
 
@@ -42,6 +57,7 @@ BLE github https://github.com/BluetoothLowEnergyInArduino101
 https://create.arduino.cc/projecthub/monica/getting-started-with-bluetooth-low-energy-ble-ab4c94
 
 ## Senzory
+
 ### Teplotna sonda: 
 https://uk.farnell.com/sensor-temperature-sensor-technology
 https://cs.wikipedia.org/wiki/Termistor
@@ -70,6 +86,8 @@ https://pimylifeup.com/arduino-force-sensing-resistor
 
 #### Parts
 100 KOhm resistor = Brown, Black, Black, Red, Brown 
+
+
 ## Zoznam
 
 gyro + akcelerometr - https://www.tme.eu/cz/details/df-sen0253/cidla-polohy/dfrobot/sen0253/
