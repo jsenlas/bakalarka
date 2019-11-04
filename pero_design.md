@@ -90,6 +90,9 @@ https://arduino-shop.cz/arduino/1312-arduino-android-ios-hm-10-bluetooth-4-0-ble
 https://en.wikipedia.org/wiki/Force-sensing_resistor
 https://en.wikipedia.org/wiki/Velostat
 
+### Heart rate monitor
+https://cz.farnell.com/rohm/bh1790glc-e2/heart-rate-monitor-ic-lga-10/dp/2748657?gclid=EAIaIQobChMI4JWK977Q5QIVAuR3Ch3SpwCbEAQYAiABEgJjI_D_BwE&gross_price=true&mckv=U2p4V9ms_dc|pcrid|203336298612|&CMP=KNC-GCZ-GEN-SHOPPING-ALL_PRODUCTS
+
 #### Instructables
 https://pimylifeup.com/arduino-force-sensing-resistor
 
