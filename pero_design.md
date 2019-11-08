@@ -110,3 +110,26 @@ ctecka microSD - https://www.tme.eu/cz/details/df-dfr0229/adaptery/dfrobot/dfr02
 NIC
 https://www.microchip.com/wwwproducts/en/RN4020
 https://www.tme.eu/cz/details/esp32-devkitc-vib/vyvojove-kity-pro-prenos-dat/espressif/
+
+
+# V0.2
+
+## PCB
+
+https://jlcpcb.com/
+
+## SD card
+
+## FSR
+
+FSR400 - https://www.pololu.com/file/0J748/FSR400Series-PD-13.pdf
+
+
+# FF (Far Future)
+
+- hrot pera, ktory by citil pritlak aj pri tlaceni pod uhlom
+
+
+AAAA bateria
+https://www.amazon.com/AmazonBasics-AAAA-Everyday-Alkaline-Batteries/dp/B00LH3DTYS?SubscriptionId=AKIAILSHYYTFIVPWUY6Q&tag=duckduckgo-d-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00LH3DTYS
+
