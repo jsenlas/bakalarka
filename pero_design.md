@@ -61,6 +61,10 @@ Nejake dalsie
 BLE github https://github.com/BluetoothLowEnergyInArduino101
 https://create.arduino.cc/projecthub/monica/getting-started-with-bluetooth-low-energy-ble-ab4c94
 
+
+Hardcore
+https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-ultra-low-power-mcus/stm32l4-series/stm32l4x5/stm32l475rc.html
+
 ## Senzory
 
 Vsetky https://playground.arduino.cc/Main/InterfacingWithHardware/
@@ -78,6 +82,8 @@ https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050
 https://www.quora.com/How-does-a-fiber-optic-gyroscope-work?share=1 
 https://www.instructables.com/id/MPU6050-Arduino-6-Axis-Accelerometer-Gyro-GY-521-B/ 
 https://playground.arduino.cc/Main/MPU-6050/
+
+https://sdi-china.en.made-in-china.com/product/ZXOJUeoMwwhY/China-Fiber-Optic-Gyroscope-System-Sensor-with-The-Lowest-Diameter-Vg091b.html
 
 ### Wireless connectivity
 https://en.wikipedia.org/wiki/ESP8266
