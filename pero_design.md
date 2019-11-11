@@ -28,6 +28,8 @@ Pera
 
 Arduino Nano
 
+programovanie arduina CP 2102 USB
+
 https://ameridroid.com/products/odroid-xu4
 https://en.wikipedia.org/wiki/ESP8266
 https://en.wikipedia.org/wiki/ESP32
