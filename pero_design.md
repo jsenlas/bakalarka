@@ -63,6 +63,10 @@ Nejake dalsie
 BLE github https://github.com/BluetoothLowEnergyInArduino101
 https://create.arduino.cc/projecthub/monica/getting-started-with-bluetooth-low-energy-ble-ab4c94
 
+
+Hardcore
+https://www.st.com/content/st_com/en/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-ultra-low-power-mcus/stm32l4-series/stm32l4x5/stm32l475rc.html
+
 ## Senzory
 
 Vsetky https://playground.arduino.cc/Main/InterfacingWithHardware/
@@ -81,6 +85,8 @@ https://www.quora.com/How-does-a-fiber-optic-gyroscope-work?share=1
 https://www.instructables.com/id/MPU6050-Arduino-6-Axis-Accelerometer-Gyro-GY-521-B/ 
 https://playground.arduino.cc/Main/MPU-6050/
 
+https://sdi-china.en.made-in-china.com/product/ZXOJUeoMwwhY/China-Fiber-Optic-Gyroscope-System-Sensor-with-The-Lowest-Diameter-Vg091b.html
+
 ### Wireless connectivity
 https://en.wikipedia.org/wiki/ESP8266
 https://en.wikipedia.org/wiki/ESP32
@@ -91,6 +97,9 @@ https://arduino-shop.cz/arduino/1312-arduino-android-ios-hm-10-bluetooth-4-0-ble
 ### Force sensing resistor
 https://en.wikipedia.org/wiki/Force-sensing_resistor
 https://en.wikipedia.org/wiki/Velostat
+
+### Heart rate monitor
+https://cz.farnell.com/rohm/bh1790glc-e2/heart-rate-monitor-ic-lga-10/dp/2748657?gclid=EAIaIQobChMI4JWK977Q5QIVAuR3Ch3SpwCbEAQYAiABEgJjI_D_BwE&gross_price=true&mckv=U2p4V9ms_dc|pcrid|203336298612|&CMP=KNC-GCZ-GEN-SHOPPING-ALL_PRODUCTS
 
 #### Instructables
 https://pimylifeup.com/arduino-force-sensing-resistor
@@ -112,3 +121,24 @@ ctecka microSD - https://www.tme.eu/cz/details/df-dfr0229/adaptery/dfrobot/dfr02
 NIC
 https://www.microchip.com/wwwproducts/en/RN4020
 https://www.tme.eu/cz/details/esp32-devkitc-vib/vyvojove-kity-pro-prenos-dat/espressif/
+
+# V0.2
+
+## PCB
+
+https://jlcpcb.com/
+
+## SD card
+
+## FSR
+
+FSR400 - https://www.pololu.com/file/0J748/FSR400Series-PD-13.pdf
+
+
+# FF (Far Future)
+
+- hrot pera, ktory by citil pritlak aj pri tlaceni pod uhlom
+
+
+AAAA bateria
+https://www.amazon.com/AmazonBasics-AAAA-Everyday-Alkaline-Batteries/dp/B00LH3DTYS?SubscriptionId=AKIAILSHYYTFIVPWUY6Q&tag=duckduckgo-d-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00LH3DTYS
