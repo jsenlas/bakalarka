@@ -13,7 +13,6 @@ mala napln do pera:
 	https://www.thepencompany.com/product/lamy-m22-ballpoint-pen-refill/
 
 Senzor
-	https://www.flintec.com/weight-sensors/force-sensors/miniature/mba-tw
 	https://www.amazon.com/MPU-6050-Accelerometer-Three-Axis-Arduino-
 
 Quadcopter/dp/B07PY38BCB?

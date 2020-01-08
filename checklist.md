@@ -13,10 +13,11 @@
 
 ## Formalna cast
 
-- [ ] Titulna strana
+- [x] Titulna strana
+- [ ] Poďakovanie
 - [ ] Obsah
 - [ ] Existujuce projekty
-- [ ] Na akom principe pracuju senzory,  ktore sa budu pouzivat
+- [ ] Na akom principe pracuju senzory, ktore sa budu pouzivat
 - [ ] Teoria pisania a znalost pisma
 
 -------------------------------------------------
@@ -25,17 +26,22 @@
 
 #### v0.0
 
-- [ ] Vyskusat naprogramovat arduino 
+- [x] Vyskusat naprogramovat arduino 
 	- [x] tlakovy senzor
-	- [ ] akcelerometer + gyro
+	- [x] akcelerometer + gyro
 	- [ ] vodivost pokozky
 	- [ ] teplomer
-	- [x] Bluetooth
+	- [o] Bluetooth
+	- [x] SD karta
 
 Spatna vazba 
 
 - spotreba celeho systemu
 
+#### v0.1
+
+- vyskusat zakladnu dosku s rychlejsim mikrokontrolerom
+	- napisat Simkovi
 
 ## ToDo
 
