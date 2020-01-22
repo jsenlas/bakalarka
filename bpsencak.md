@@ -174,6 +174,21 @@ Zistit na com sa bude
 
 
 
+Keď chceme určiť akou vzorkovacou frekvenciou chceme analógové hodnoty tlaku na hrot čítať potrebujeme vedieť čas a dĺžku napísaného textu. Ak sa zamyslíme pri akej príležitosti človek vykoná najrýchlejší pohyb rukou, tak nám jednoznačne napadne podpisovanie. Pri podpisovaní človek robí automatizovaný pohyb, ktorý má proste "v ruke" (z angličtiny muscle memory). Urobil som experiment na niekoľkých subjektoch, ktorým som nepovedal, čo meriam a nechal som ich podpísať sa. Odstopoval som koľko im trvalo ich bežné podpísanie a hodnoty som si zaznamenal. Toto testovanie prebiehalo na malej vzorke 10 ľudí a jeho cieľom bolo nájsť najrýchlejší podpis - keďže by sme chceli, aby pero dokázalo pracovať aj v náročných podmienkach. Potreboval som len referenčnú hodnotu podľa ktorej by som vedel vybrať vhodný mikrokontrolér s vhodným A/D prevodníkom. 
+
+Experimentálne sme zistili, že najrýchlejší podpis trvá len 0.8 s, pričom nevylučujeme možnosť rýchlejšieho podpisu. Ak budeme chcieť vzorkovať podpis povedzme po 1 mm musíme zmerať dĺžku podpisu. v tomto prípade sa jednalo o dĺžku asi 60 mm. Ak si to prevedieme trojčlenkou výjde nám, že za 1 sekundu urobí 75 mm a teda potrebujeme 75 vzorkov za sekundu - 75 Hz. Experimentálna vzorkovacia frekvencia vo výskume z roku 1990\cite{SchomakerL.1990Trbp} bola 105 Hz pričom rozlíšenie bolo nastavené na 0.025 mm s presnosťou 0.25 mm. Z tohoto dôvodu nastavíme aj my vzorkovaciu frekvenciu na hodnotu 100 Hz.
+
+
+75 ... 1mmm
+x  ... 0.025mm
+x = 75*0.025
+
+
+
+Thesamplingfrequencywas 105.2Hz,sampleshavingaresolutionof 0.025mmandanaccuracyof 0.25mmin bothX andY direction
+
+
+Ak budeme počítať s nahorším možným scenárom a teda, že podpis bude trvať 
 
 
 
