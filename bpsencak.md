@@ -1,6 +1,37 @@
+Vysvetujem Frantovi:
+Ake su vlastnosti pisma
+Existujuce riesenia s popisom
+Na ake vlastnosti sa zamerat
+	Vytvoorenie zadania - KOMPROMIS
+ake senzory na to pouzit
+	Franta nievie ako funguju - popis senzorov
+1. Navrh pera zo senzorov
+2. Vytvorenie prototypov
+3. Zistene vysledky
+4. Som spokojby s vysledkami?
+	ANO -> dalej
+	NIE -> 1.
+Spracovanmie dat
+Zhrnutie vysledkov
+
+Co sa da vylepsit
+
+
+PRED odovzdanim
+Kontrola pravopisu 
+	ispall/aspell/hunspell - Linux
+	Word - WIndows
+
+
 #Titulná strana - vziať z webu
 
 Abstrakt
+Aký problém sa rieši., cieľom tejto práce je
+Ako bol problém vyriešený/naplnený
+Konkrétne výsledky
+Hlavným výsledkom/zistením ALEBO Aky je prínos tejto práce
+
+
 #CZ
 
 Abstract
@@ -37,7 +68,7 @@ Jakub Senčák
 # Obsah
 
 [] 1 Úvod
-[] 2 
+[] 2 Existujúce 
 [] 3
 [] 4
 [] 5

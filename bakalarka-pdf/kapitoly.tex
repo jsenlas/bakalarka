@@ -3,8 +3,8 @@
 % Autoři: Michal Bidlo, Bohuslav Křena, Jaroslav Dytrych, Petr Veigend a Adam Herout 2019
 \chapter{Úvod}
 
-TODO
-°
+
+
 \chapter{Teoretická část}
 
 \section{Vlastnosti písania}
@@ -28,7 +28,7 @@ Livescribe 3 je určené na písanie poznámok. Toto pero využíva Bluetooth v4
 
 \subsection*{iskn Slate 2+}
 
-Slate 2+ od firmy iskn využíva magnetický prstenec a špeciálnu podložku, v ktorej sa nachádza 32 magnetometrov (senzorov na meranie zmien magnetického poľa). Podložka komunikuje s aplikáciou v mobilnom zariadení alebo počítači pomocou Bluetooth LE 5.0 a v reálnom čase tieto dáta zobrazuje. Výsledok je veľmi presný, no vyžaduje presnú kalibráciu.\newline
+Slate 2+ od firmy iskn využíva magnetický prstenec a špeciálnu podložku, v ktorej sa nachádza 32 magnetometrov (senzorov na meranie zmien magnetického poľa). Podložka komunikuje s aplikáciou v mobilnom zariadení alebo počítači pomocou Bluetooth LE v5.0 a v reálnom čase tieto dáta zobrazuje. Výsledok je veľmi presný, no vyžaduje presnú kalibráciu. Kalibrácia sa vykonáva tak, že sa na podložke stisne drží špeciálne tlačidlo a potom stačí vziať pero/ceruzku s prtencom a priložiť jej hrot kolmo na podložku. Následne stačí pustiť tlačidlo a všetko je nakalibrované. Ak sa kalibrácia nevykoná správne ceruzka nebude presnám \newline
 
 \begin{figure}[hbt]
 	\centering
@@ -72,16 +72,31 @@ Jedná sa o pero so špeciálnou tuhou, ktorá má na sebe dva analógové piezo
 	\label{piezoPen1997}
 \end{figure}
 
+Všetky tieto riešenia sa v praxi bežne používajú (okrem riešenia z roku 1977). Každý z týchto produktov má svoje použitie a podľa neho má aj prispôsobené použité technológie. V tejto práci si vyberiem parametre, ktoré budú spĺňať zadanie a navrhnem ďalšie rozšírenia. 
+
 \chapter{Návrh řešení}
 
-V tejto časti sa budem venovať výberu komponent a samotnému návrhu pera so senzormi.
+Cieľom tejto práce je vytvoriť pero so skrytými senzormi, ktoré budú snímať dynamické vlastnosti písma. 
 
 \section{Výber komponent}
 
+V tejto časti sa budem venovať výberu komponent a samotnému návrhu pera so senzormi.
+
 \subsection*{Tlakový senzor}
 
-Interlink Electronics FSR® 400 je malý a lacný tlakový odporový senzor. Bez záťaže sa správa ako nekonečný odpor a s použitím sily na jeho povrch sa jeho odpor znižuje. Citlivosť a maximálna záťaž je nastavená na interakciu s ľuďmi. \cite{fsr400}
+Interlink Electronics FSR® 400 je malý a lacný tlakový odporový senzor. Bez záťaže sa správa ako nekonečný odpor a s použitím sily na jeho povrch sa jeho odpor znižuje. Citlivosť a~maximálna záťaž je nastavená na interakciu s ľuďmi. \cite{fsr400}
 V kombinácii s 10K Ohm rezistorom a zapojením na analógový pin dáva najširí interval hodnôt.
+
+\[
+V_{OUT} = \frac{V_{IN} R_M} {R_M + R_{FSR}}
+\]
+\begin{figure}[hbt]
+	\centering
+	\includegraphics[width=0.7\textwidth]{obrazky-figures/.png}
+	\caption{}
+	\label{}
+\end{figure}
+
 
 \subsection*{Akcelerometer a akcelerometer}
 
@@ -105,14 +120,14 @@ Teraz som začal hľadať iný mikrokontrolér a vyskúšam vývojovú dosku ARM
 
 \begin{figure}[hbt]
 	\centering
-	\includegraphics[width=1\textwidth]{obrazky-figures/umiestnenie_tlakovych_senzorov.png}
+	\includegraphics[width=0.7\textwidth]{obrazky-figures/umiestnenie_tlakovych_senzorov.png}
 	\caption{Návrh uchytenia tuhy}
 	\label{piezoPen1997}
 \end{figure}
 
 \begin{figure}[hbt]
 	\centering
-	\includegraphics[width=1\textwidth]{obrazky-figures/uchytenie.png}
+	\includegraphics[width=0.7\textwidth]{obrazky-figures/uchytenie.png}
 	\caption{Návrh uchytenia tlakového senzora}
 	\label{piezoPen1997}
 \end{figure}

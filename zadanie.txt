@@ -1,0 +1,32 @@
+Konstrukce pera se skrytými senzory
+Pen Design with Hidden Sensors
+
+Vedoucí:
+    Sakin Martin, Ing., UITS FIT VUT
+Oponent:
+    Drahanský Martin, prof. Ing., Dipl.-Ing., Ph.D., UITS FIT VUT
+Student:
+    Senčák Jakub
+Jazyk práce:
+    čeština
+Zadání:
+
+        Nastudujte problematiku týkající se snímání a rozpoznávání behaviorálních (dynamických) charakteristik podpisu a písma.
+        Vyhledejte a seznamte se se senzory vhodné pro snímání těchto behaviorálních charakteristik.
+        Navrhněte pero osazené senzory pro snímání behaviorálních charakteristik podpisu a písma s ukládáním dat na paměťovou kartu nebo s bezdrátovým odesíláním na jiné zařízení.
+        Navržené řešení prakticky realizujte a otestujte.
+        Diskutujte získané výsledky, reálné využití a další možnosti rozšíření.
+
+Část požadovaná pro obhajobu SP:
+
+        Body 1 až 3.
+
+Kategorie:
+    Vestavěné systémy
+Literatura:
+
+        E. P. EerNisse, C. E. Land and J. B. Snelling, "Piezoelectric sensor pen for dynamic signature verification," 1977 International Electron Devices Meeting, Washington, DC, USA, 1977, pp. 473-476.
+        Shimizu, H., Kiyono, S., Motoki, T., & Gao, W., "An electrical pen for signature verification using a two-dimensional optical angle sensor", Sensors and Actuators A: Physical Volume 111, Issues 2-3, 15 March 2004, Pages 216-221.
+
+Komentář:
+    Cílem práce je navrhnout a vyvinout psací pero se skrytou deskou plošných spojů, osazenou senzory na měření sklonu, rotace a azimutu pera v průběhu psaní, včetně bezdrátového přenosu dat na server.
