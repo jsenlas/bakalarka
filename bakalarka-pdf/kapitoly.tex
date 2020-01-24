@@ -55,25 +55,27 @@ V tejto časti sa budem venovať výberu komponent a samotnému návrhu pera so 
 
 Pre návrh pera je nevyhnutné stanoviť si aké vlastnosti písma budem potrebovať zaznamenávať. 
 
-\section{Výber komponent}
+\section{Stanovenie vlastností}
 
 Z exitujúcich technických riešení me sa rozhodli niektoré vybrať a použiť ich pri návrhu a konštrukcii pera so skrytými senzormi. Ako názov tejto práce napovedá "Konstrukce pera se skrytými senzory" budeme chcieť vyrobiť pero, ktoré na prvý pohľad bude vyzerať nenápadne, tak aby si pisateľ nič podozrivé nevšimol. Z dôvodu ušetrenia miesta v zariadení bude najlepšie vytvoriť vlastný hardware, ktorý bude prepojovať mikrokontrolér so senzormi a zmestí sa do pera. Z technických dôvodov a mojej neskúsenosti budeme postupovať v niekoľkých iteráciách prototypov. Najprv budeme využívať už existujúce vývojové dosky a kity. V neskorších štádiách sa budeme venovať aj návrhu vlastného hardware. 
 
-Infračervená kamera je asi najlepšie riešenie, čo sa týka presnosti, no rozhodli sme sa ju nepoužiť, pretože je príliš nápadná na to, aby si ju človek nevšimol. Nevylučujeme však, že by sa dala použiť a nejako efektívne schovať na spodnú časť pera pod hrot tuhy, tak aby si to človek nevšimol, no pre tento výskum s ňou nebudeme počítať a prenechávame túto možnosť na ďalší výskum.
+Infračervená kamera je asi najlepšie riešenie, čo sa týka presnosti, no rozhodli sme sa ju nepoužiť, pretože je príliš nápadná na to, aby si ju človek nevšimol. Nevylučujeme však, že by sa dala použiť a schovať na spodnú časť pera pod hrot tuhy, tak aby si to človek nevšimol, no pre tento výskum s ňou nebudeme počítať a prenechávame túto možnosť na ďalší výskum.
 
 Kalibrácia je veľmi dôležitým parametrom keďže chceme aby bolo zariadenie presné, ale nie za cenu náročnej procedúry pri spúšťaní pera. Cieľom bude vybrať súčiastky tak, aby na kalibráciu stačilo minimum času. 
 
-Rozhodli sme sa, že pero nesmie vyžadovať žiadnu špeciálnu podložku na záznam pohybu. Toto riešenie by vyžadovalo, aby sa človek podpísal na konkrétnu podložku. Hoci je pravdepodobne možné človeka zmanipulovať na to aby sa podpísal na konkrétnu plochu poprípade vytvoriť plochu povedzme veľkosti stola, rozhodli sme sa neísť touto cestou a pokúsime sa vytvoriť riešenie, ktoré nebude potrebovať dodatočný hardware. 
+Rozhodli sme sa, že pero nesmie vyžadovať žiadnu špeciálnu podložku na záznam pohybu. Toto riešenie by vyžadovalo, aby sa človek podpísal na konkrétnu podložku. Hoci je pravdepodobne možné človeka zmanipulovať na to aby sa podpísal na konkrétnu plochu poprípade vytvoriť plochu povedzme veľkosti stola, rozhodli sme sa neísť touto cestou a pokúsime sa vytvoriť riešenie, ktoré nebude potrebovať dodatočný hardware. \newline
 
 \textbf{Cieľové vlastnosti, na ktoré by sme sa chceli zamerať sú:}
 \begin{description}
-	\item{presnosť, }
-	\item{minimálna poprípade rýchla kalibrácia, }
-	\item{skrytosť a nenápadnosť}
-	\item{možnosť písať na akomkoľvek povrchu}
+	\item[-]{presnosť}
+	\item[-]{minimálna poprípade rýchla kalibrácia}
+	\item[-]{skrytosť a nenápadnosť}
+	\item[-]{možnosť písať na akomkoľvek povrchu}
 \end{description}
 
 Podľa týchto vlastností sme sa zamerali na výber vhosných komponet.
+
+\section{Výber komponent}
 
 \subsection*{Tlakový senzor}
 
