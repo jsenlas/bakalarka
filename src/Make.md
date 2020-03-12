@@ -17,3 +17,6 @@ Arduino = Breadboard
 2. noha => A5
 2. noha => rezistor 10K => GND
 
+# Accelerometer
+
+https://playground.arduino.cc/Main/MPU-6050/

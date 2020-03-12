@@ -8,7 +8,7 @@
 
 *Vsetky cinnosti:*
 - [x] nainstalovat Arduino IDE
-- [ ] pripojit sa a urobit si niekolkko tutorialov
+- [x] pripojit sa a urobit si niekolkko tutorialov
 - [ ] nastudovat si ako sa pise bakalarska praca == ukradnut kostru ;)
 
 ## Formalna cast
