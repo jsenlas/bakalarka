@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a014184-e6e9-4790-8d4d-301a878ac3ab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectId" id="1W2jbuQQR44GgdkXjpl5MqnI7lw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CLionExternalConfigurable" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="open CMakeLists.txt" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="upload" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a014184-e6e9-4790-8d4d-301a878ac3ab" name="Default Changelist" comment="" />
+      <created>1578354659421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578354659421</updated>
+      <workItem from="1578354668873" duration="558000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578355176766">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="418" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1578355176766" />
+    <state x="742" y="298" key="FileChooserDialogImpl" timestamp="1578355170389">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="742" y="298" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1578355170388" />
+    <state x="456" y="175" width="1007" height="733" key="SettingsEditor" timestamp="1578354952846">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="456" y="175" width="1007" height="733" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1578354952846" />
+    <state x="639" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1578354709998">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="639" y="367" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1578354709998" />
+    <state x="624" y="247" width="672" height="677" key="run.anything.popup" timestamp="1578355222310">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="624" y="247" width="672" height="677" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1578355222310" />
+  </component>
+</project>

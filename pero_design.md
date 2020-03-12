@@ -13,6 +13,7 @@ mala napln do pera:
 	https://www.thepencompany.com/product/lamy-m22-ballpoint-pen-refill/
 
 Senzor
+	https://www.flintec.com/weight-sensors/force-sensors/miniature/mba-tw
 	https://www.amazon.com/MPU-6050-Accelerometer-Three-Axis-Arduino-
 
 Quadcopter/dp/B07PY38BCB?
@@ -133,6 +134,11 @@ https://jlcpcb.com/
 
 FSR400 - https://www.pololu.com/file/0J748/FSR400Series-PD-13.pdf
 
+ADC doska http://henrysbench.capnfatz.com/henrys-bench/arduino-voltage-measurements/arduino-ads1115-module-getting-started-tutorial/
+
+arduino analog vysoka frekvencia https://www.xanthium.in/atmega328p-10bit-sar-adc-usart-serial-transmit-to-pc-data-acquisition-tutorial
+
+https://embedds.com/adc-on-atmega328-part-2/
 
 # FF (Far Future)
 
