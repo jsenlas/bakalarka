@@ -149,3 +149,10 @@ https://embedds.com/adc-on-atmega328-part-2/
 
 AAAA bateria
 https://www.amazon.com/AmazonBasics-AAAA-Everyday-Alkaline-Batteries/dp/B00LH3DTYS?SubscriptionId=AKIAILSHYYTFIVPWUY6Q&tag=duckduckgo-d-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00LH3DTYS
+
+
+
+
+10x 10KOhm rezistor 
+
+

@@ -1,13 +1,13 @@
 %God give me strenght
 \chapter{Úvod}
 
-Historické texty nám ukazujú, že človek mal vždy tendenciu si informácie ukladať - zapisovať. Či sa jednalo o písanie na steny v jaskyniach, papyrusové zvytky alebo tlačené knihy. V priebehu času sa vyvíjali materiály aj technológia, ktorou tieto informácie zapisujeme. Hoci už sme v 21. storočí a pomaly každý z nás vlastní nejaké smart zariadenie stále využívame pero a papier na poznámky, písanie poštovej korešpondencie a aj ako spôsob našej identifikácie - podpisovanie. Podpis stále hraje neodmysliteľnú úlohu pri dávaní súhlasu s úradnými dokumentami, autorstvom dokumentov a overovaní identity osôb. Práve pre jeho používanie v úradných dokumentoch sa častokrát stáva terčom falšovania.
+Historické texty nám ukazujú, že človek mal vždy tendenciu si informácie ukladať - zapisovať -či sa jednalo o písanie na steny v jaskyniach, papyrusové zvytky alebo tlačené knihy. V priebehu času sa vyvíjali materiály aj technológia, ktorou tieto informácie zapisujeme. Hoci už sme v 21. storočí a pomaly každý z nás vlastní nejaké smart zariadenie stále využívame pero a papier na poznámky, písanie poštovej korešpondencie a aj ako spôsob našej identifikácie - podpisovanie. Podpis stále hraje neodmysliteľnú úlohu pri dávaní súhlasu s úradnými dokumentami, autorstvom dokumentov a overovaní identity osôb. Práve pre jeho používanie v úradných dokumentoch sa častokrát stáva terčom falšovania.
 
 Cieľom tejto práce bude vytvoriť zariadenie schopné zaznamenávať dynamické vlastnosti písma pomocou senzorov ukrytých vo vnútri pera. 
 
 V druhej kapitole sa rozoberajú existujúce riešenia pier s rôznymi typmi senzorov spolu s teoretickým základom k dynamickým vlastnostiam písma. V tretej kapitole sa náchadza návrh konštrukcie pera so skrytými senzormi a výber jednotlivých komponent. Štvrtá kapitola obsahuje praktické riešenie návrhu a testovanie vytvoreného zariadenia. Piata kapitola zhrnie zistenia, ku ktorým sa prišlo pri testovaní.
 
-\chapter{Teoretická část}
+\chapter{Teoretická časť}
 
 \section{Vlastnosti písania}
 
@@ -21,7 +21,7 @@ Livescribe 3 je určené na písanie poznámok. Toto pero využíva Bluetooth v4
 
 \subsection*{iskn Slate 2+}
 
-Slate 2+ od firmy iskn využíva magnetický prstenec a špeciálnu podložku, v ktorej sa nachádza 32 magnetometrov (senzorov na meranie zmien magnetického poľa). Podložka komunikuje s aplikáciou v mobilnom zariadení alebo počítači pomocou Bluetooth LE v5.0 a v reálnom čase tieto dáta zobrazuje. Výsledok je veľmi presný, no vyžaduje presnú kalibráciu. Kalibrácia sa vykonáva tak, že sa na podložke stisne drží špeciálne tlačidlo a potom stačí vziať pero/ceruzku s prtencom a priložiť jej hrot kolmo na podložku. Následne stačí pustiť tlačidlo a všetko je nakalibrované. Ak sa kalibrácia nevykoná správne ceruzka nebude presná.\newline
+Slate 2+ od firmy iskn využíva magnetický prstenec a špeciálnu podložku, v ktorej sa nachádza 32 magnetometrov (senzorov na meranie zmien magnetického poľa). Podložka komunikuje bezdrôtovo s aplikáciou v mobilnom zariadení alebo počítači pomocou Bluetooth LE v5.0 a v reálnom čase tieto dáta zobrazuje. Výsledok je veľmi presný, no vyžaduje presnú kalibráciu. Kalibrácia sa vykonáva tak, že sa na podložke stisne a podrží špeciálne tlačidlo a potom stačí vziať pero/ceruzku s prtencom a priložiť jej hrot kolmo na podložku. Následne stačí pustiť tlačidlo a všetko je nakalibrované. Ak sa kalibrácia nevykoná správne ceruzka nebude presná.\newline
 
 \begin{figure}[hbt]
 	\centering
@@ -30,15 +30,14 @@ Slate 2+ od firmy iskn využíva magnetický prstenec a špeciálnu podložku, v
 	\caption{Board with sensors (left) and detected field (right)}
 	\label{ISKN}
 \end{figure}
-%isknMagneticfield
 
 \subsection*{Stylus}
 
-Stylus sa používa na písanie na dotykové plochy. Aktuálne asi najsofistikovanejším je Apple Pencil. Radí sa mezdi aktívne stylusy\cite{HarleyJonahA2013As}. Používa dva trojosé gyroskopy rozmiestnené v rôznych častiach pera. Hrot pera funguje ako tlakový senzor a taktiež ako anténa, ktorá vysiela nízkofrekvenčné (dlhé) vlny a tie sú detekované senzorovou vrstvou pod displejom. Spojenie s iPadom zabezpečuje Bluetooth 4.1\cite{ApplePencilForum}. Intel v roku 2014 predpovedal, že aktívne stylusy nebudú také úspešné ako pasívne z dôvodu vysokej ceny a náročnosti vývoja takej technológie\cite{IntelDisp}. No ako môžeme vidieť, táto technológia nakoniec prerazila.\newline
+Stylus sa používa na písanie na dotykové plochy. Aktuálne asi najsofistikovanejším je Apple Pencil. Radí sa mezdi aktívne stylusy\cite{HarleyJonahA2013As}. Používa dva trojosé gyroskopy rozmiestnené v rôznych častiach pera. Hrot pera funguje ako tlakový senzor a taktiež ako anténa, ktorá vysiela nízkofrekvenčné (dlhé) vlny a tie sú detekované senzorovou vrstvou pod displejom. Spojenie s iPadom zabezpečuje Bluetooth 4.1\cite{ApplePencilForum}. Intel v roku 2014 predpovedal, že aktívne stylusy nebudú také úspešné ako pasívne z dôvodu vysokej ceny a náročnosti vývoja takej technológie\cite{IntelDisp}, no ako môžeme vidieť, táto technológia nakoniec prerazila.\newline
 
 \subsection*{Špeciálne výskumné perá}
 
-Pri výskume zameranom na tlak pôsobiaci na hrot pri písaní sa používali dva analógové piezoelektrické biomorfné senzory prichytené na tuhu v 90\degree~uhle k sebe navzájom\cite{EernisseE}, viď obrázok X.X. Tento typ senzoru využíva piezoelektrických javov pri meraní pohybu pera. Iný výskum sa zaoberal identifikáciou pisateľa podľa tlaku, ktorý vyvíja na podložku, viac informácií v \cite{SchomakerL.1990Trbp}. V tomto výskume bol použitý tenzometer, pasivní elektrotechnická součástka, používaná jako senzor k nepřímému měření mechanického napětí na povrchu součásti prostřednictvím měření její deformace\cite{Tenzometr}.
+Pri výskume zameranom na tlak pôsobiaci na hrot pri písaní sa používali dva analógové piezoelektrické biomorfné senzory prichytené na tuhu v 90\degree~uhle k sebe navzájom\cite{EernisseE}, viď obrázok X.X. Tento typ senzoru využíva piezoelektrických javov, ktoré vznikajú medzi dvomi kovmi a tým merajú pohyb pera. Iný výskum sa zaoberal identifikáciou pisateľa podľa tlaku, ktorý vyvíja na podložku pri písaní, viac informácií v \cite{SchomakerL.1990Trbp}. V tomto výskume bol použitý tenzometer, pasívna elektrotechnická súčiastka, pouťívaná ako senzor k nepriamemu meraniu mechanického napätia na povrchu súčiastky prostredníctvom jej deformácie.\cite{Tenzometr}.
 
 \begin{figure}[hbt]
 	\centering
@@ -47,7 +46,7 @@ Pri výskume zameranom na tlak pôsobiaci na hrot pri písaní sa používali dv
 	\label{piezoPen1997}
 \end{figure}
 
-\chapter{Návrh řešení}
+\chapter{Návrh riešenia}
 
 V tejto časti sa budem venovať výberu komponent a samotnému návrhu pera so senzormi.
 
@@ -57,13 +56,17 @@ Pre návrh pera je nevyhnutné stanoviť si aké vlastnosti písma budem potrebo
 
 \section{Stanovenie vlastností}
 
-Z exitujúcich technických riešení me sa rozhodli niektoré vybrať a použiť ich pri návrhu a konštrukcii pera so skrytými senzormi. Ako názov tejto práce napovedá "Konstrukce pera se skrytými senzory" budeme chcieť vyrobiť pero, ktoré na prvý pohľad bude vyzerať nenápadne, tak aby si pisateľ nič podozrivé nevšimol. Z dôvodu ušetrenia miesta v zariadení bude najlepšie vytvoriť vlastný hardware, ktorý bude prepojovať mikrokontrolér so senzormi a zmestí sa do pera. Z technických dôvodov a mojej neskúsenosti budeme postupovať v niekoľkých iteráciách prototypov. Najprv budeme využívať už existujúce vývojové dosky a kity. V neskorších štádiách sa budeme venovať aj návrhu vlastného hardware. 
+Z exitujúcich technických riešení me sa rozhodli niektoré vybrať a použiť ich pri návrhu a konštrukcii pera so skrytými senzormi. Ako názov tejto práce napovedá "Konstrukce pera se skrytými senzory" budeme chcieť vyrobiť pero, ktoré na prvý pohľad bude vyzerať nenápadne, tak aby si pisateľ nič podozrivé nevšimol. 
 
-Infračervená kamera je asi najlepšie riešenie, čo sa týka presnosti, no rozhodli sme sa ju nepoužiť, pretože je príliš nápadná na to, aby si ju človek nevšimol. Nevylučujeme však, že by sa dala použiť a schovať na spodnú časť pera pod hrot tuhy, tak aby si to človek nevšimol, no pre tento výskum s ňou nebudeme počítať a prenechávame túto možnosť na ďalší výskum.
+Pero bude bezdrôtové pričom sa nám naskytujú dve možnosti. Môžeme využiť buď bezdrôtovú komunikáciu medzi perom a iným zariadením, ktoré bude dáta spracovávať alebo budeme tieto informácie ukladať do pamäte priamo v pere a po vykonaní pokusu pero rozobrať a dáta vyčítať z pamäte. Po konzultácii s prof. Drahanským sme sa rozhodli, že pero urobíme rozoberateľné a dáta budeme ukladať na pamäťovú kartu. Ako vylepšenie navrhujeme použiť pamäťový modul priamo na PCB doske a dáta čítať cez USB rozhranie.
+
+Z dôvodu ušetrenia miesta v zariadení bude najlepšie vytvoriť si vlastný hardware, ktorý bude prepojovať mikrokontrolér so senzormi a zmestí sa do pera. Návrh a vývoj bude prebiehať v niekoľkých iteráciách, v ktorých v každom vytvoríme prototyp a otestujeme ho. Najprv budeme využívať už existujúce vývojové dosky a kity. V neskorších štádiách sa budeme venovať aj návrhu vlastného hardware. 
+
+Infračervená kamera je najlepšie riešenie, čo sa týka presnosti bez použitia dodatočných podložiek, no rozhodli sme sa ju nepoužiť, pretože je príliš nápadná na to, aby si ju človek nevšimol a nápadne mení dizajn pera - tuha nie je v strede pera. Nevylučujeme však, že by sa dala schovať na spodnú časť pera pod hrot tuhy, tak aby si to človek nevšimol, no pre tento výskum s ňou nebudeme počítať a prenechávame túto možnosť na ďalší výskum.
 
 Kalibrácia je veľmi dôležitým parametrom keďže chceme aby bolo zariadenie presné, ale nie za cenu náročnej procedúry pri spúšťaní pera. Cieľom bude vybrať súčiastky tak, aby na kalibráciu stačilo minimum času. 
 
-Rozhodli sme sa, že pero nesmie vyžadovať žiadnu špeciálnu podložku na záznam pohybu. Toto riešenie by vyžadovalo, aby sa človek podpísal na konkrétnu podložku. Hoci je pravdepodobne možné človeka zmanipulovať na to aby sa podpísal na konkrétnu plochu poprípade vytvoriť plochu povedzme veľkosti stola, rozhodli sme sa neísť touto cestou a pokúsime sa vytvoriť riešenie, ktoré nebude potrebovať dodatočný hardware. \newline
+Rozhodli sme sa, že pero nesmie vyžadovať žiadnu špeciálnu podložku na záznam pohybu. Toto riešenie by vyžadovalo, aby sa človek podpísal na konkrétnu podložku. Hoci je pravdepodobne možné človeka zmanipulovať na to aby sa podpísal na konkrétnu plochu poprípade vytvoriť plochu povedzme veľkosti stola, rozhodli sme sa neísť touto cestou a pokúsime sa vytvoriť riešenie, ktoré nebude potrebovať dodatočný hardware.\newline
 
 \textbf{Cieľové vlastnosti, na ktoré by sme sa chceli zamerať sú:}
 \begin{description}
@@ -73,13 +76,18 @@ Rozhodli sme sa, že pero nesmie vyžadovať žiadnu špeciálnu podložku na z�
 	\item[-]{možnosť písať na akomkoľvek povrchu}
 \end{description}
 
-Podľa týchto vlastností sme sa zamerali na výber vhosných komponet.
+Podľa týchto vlastností sme sa zamerali na výber vhodných komponet.
 
 \section{Výber komponent}
 
+\subsection*{Mikrokontrolér}
+
+Na začiatku som si vybral vývojovú dosku Arduino Nano kvôli jej jednoduchému použitiu a programovaniu. 
+Počiatočné experimenty najprv ukázaly, že táto doska nie je vhodná, pretože jej ADC (analógovo digitálny prevodník) je príliš pomalý pri spracovávaní z viacerých senzorov. Mikrokontrolér dokázal spracovať\footnote{prečítať aktuálnu hodnotu z výstupu a zapísať ju do pamäte FLASH na SD karte} len asi 100 hodnôt za sekundu, čo je v mojom prípade málo, keže jeden podpis trvá aj menej ako jednu sekundu. Ako alternatívu sme ešte vyskúšali vývojovú dosku ARMSTM32F103C8T6 \cite{ArduinoARM}. Dokumentácia k mikrokontroléru Atmega328p, ktorý sa nachádza na vývojovej doske Arguino Nano nakoniec ukázala, že rýchlosť prevodníku je dostatočná aj pri použití piatich tlakových senzoroch. 
+
 \subsection*{Tlakový senzor}
 
-Interlink Electronics FSR® 400 je malý a lacný tlakový odporový senzor. Bez záťaže sa správa ako nekonečný odpor a s použitím sily na jeho povrch sa jeho odpor znižuje. Citlivosť a~maximálna záťaž je nastavená na interakciu s ľuďmi. \cite{fsr400} V kombinácii s 10K Ohm rezistorom a zapojením na analógový pin dáva najširí interval hodnôt. 
+Interlink Electronics FSR® 400 je malý a lacný tlakový odporový senzor. Bez záťaže sa správa ako nekonečný odpor a s použitím sily na jeho povrch sa jeho odpor znižuje. Citlivosť a~maximálna záťaž je nastavená na interakciu s ľuďmi\cite{fsr400}. V kombinácii s 10K Ohm rezistorom a zapojením na analógový pin dáva najširí interval hodnôt. 
 
 \[
 V_{OUT} = \frac{V_{IN} R_M} {R_M + R_{FSR}}
@@ -102,7 +110,7 @@ Tento vzorec sa používa na výpočet výstupného napätia $V_{OUT}$ v závisl
 	\label{Characteristics}
 \end{figure}
 
-\subsection*{Akcelerometer a akcelerometer}
+\subsection*{Akcelerometer a gyroskop}
 
 Rozhodol som sa použiť modul GY-521, ktorý kombinuje obidva senzory na jednom čipe. Akcelerometre typu MEMS trpia zvýšenou hladinou šumu\cite{PawlusJan2019Zpns}, ako som sa aj ja presvedčil. Zatiaľ som mal k dispozícii len jeden modul preto som zatiaľ neotestoval použitie dvoch modulov a priemerovanie nameraných hodnôt. Ako alternatívu teraz čakám na ďalšie dva senzory DFROBOT SEN0253\cite{PohybovySenzor}, na ktorých vyskúšam priemerovanie a rôzne rozmiestnenie na pere.
 
@@ -170,3 +178,5 @@ Použitie bezdrôtového pripojenia, napr. BLE (Bluetooth Low Energy) by uľahč
 \label{zaver}
 
 %===============================================================================
+Infračervená kamera je asi najlepšie riešenie, čo sa týka presnosti, no rozhodli sme sa ju nepoužiť, pretože je príliš nápadná na to, aby si ju človek nevšimol. Nevylučujeme však, že by sa dala použiť a schovať na spodnú časť pera pod hrot tuhy, tak aby si to človek nevšimol, no pre tento výskum s ňou nebudeme počítať a prenechávame túto možnosť na ďalší výskum.
+

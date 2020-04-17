@@ -22,8 +22,9 @@ void setup(void) {
 
 void loop(void) {
   pressureReading = analogRead(pressureAnalogPin);
+  Serial.println(pressureReading);
   if (pressureReading !=0){
-    Serial.println(pressureReading);
+    //Serial.println(pressureReading);
     pole[x] = pressureReading;
     x++;
   }
@@ -67,5 +68,5 @@ void loop(void) {
     Serial.println(" - High Pressure");
   }
   */
-  //delay(1000);
+  delay(1000);
 }
